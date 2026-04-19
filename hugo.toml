@@ -1,0 +1,80 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Your Name"
+theme = "ink"
+
+[params]
+  author = "Your Name"
+  description = "Designer, developer, and writer."
+  homeTitle = "Your Name"
+  homeSubtitle = "Designer, developer, and writer."
+  homeBio = "I build things for the web and write about technology, design, and the craft of making software."
+  homeImage = "/images/avatar.jpg"    # Avatar on homepage (place in static/images/, renders as 110px circle)
+  favicon = "/favicon.ico"            # Place in static/
+  recentPostsCount = 3                # Posts shown on homepage (default: 3)
+
+  # Social links — displayed in the homepage hero section
+  [[params.socialLinks]]
+    name = "GitHub"
+    url = "https://github.com"
+    external = true                   # Opens in new tab with external link indicator
+  [[params.socialLinks]]
+    name = "LinkedIn"
+    url = "https://linkedin.com"
+    external = true
+  [[params.socialLinks]]
+    name = "Email"
+    url = "mailto:hello@example.com"
+  [[params.socialLinks]]
+    name = "Blog"
+    url = "/posts/"
+
+  # Ask AI buttons — shown on homepage, configurable
+  # If omitted entirely, defaults to Claude, ChatGPT, and Perplexity
+  # Use PROMPT in URL for tools with native query support
+  [[params.askAI]]
+    name = "Claude"
+    url = "https://claude.ai/new"
+  [[params.askAI]]
+    name = "ChatGPT"
+    url = "https://chatgpt.com/"
+  [[params.askAI]]
+    name = "Perplexity"
+    url = "https://perplexity.ai/search?q=PROMPT"
+
+# Navigation menu
+[menu]
+  [[menu.main]]
+    name = "Now"
+    url = "/now/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 3
+
+# Output formats — add "llmstxt" and "JSON" to enable llms.txt and search
+[outputs]
+  home = ["HTML", "RSS", "llmstxt", "JSON"]
+
+[outputFormats.llmstxt]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  notAlternative = true
+
+# Related posts — powers the "Related Posts" section on blog posts
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10
