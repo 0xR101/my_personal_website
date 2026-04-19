@@ -1,3 +1,7 @@
-# Your Name
+# Rayyan Raza
 
-> Designer, developer, and writer.
+> Physics Researcher
+
+## Posts
+- [Dynamics of Spin Qubits in Semiconductor Quantum Dots](http://localhost:45323/my_personal_website/posts/spin-qubits-intro/): A brief overview of spin qubit Hamiltonian dynamics and gate implementations.
+- [Energy Efficiency in Reversible Quantum Circuits](http://localhost:45323/my_personal_website/posts/reversible-computing-effeciency/): Analyzing the thermodynamic limits of computation through reversible logic gates.

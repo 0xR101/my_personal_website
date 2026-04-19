@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your Name</title>
-    <link>http://localhost:35497/categories/</link>
-    <description>Designer, developer, and writer.</description>
+    <title>Rayyan Raza</title>
+    <link>http://localhost:45323/my_personal_website/categories/</link>
+    <description>Physics Researcher</description>
     <generator>Hugo 0.160.1</generator>
     <language>en</language>
-    <managingEditor>Your Name</managingEditor>
-    
-    <atom:link href="http://localhost:35497/categories/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>Rayyan Raza</managingEditor>
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:45323/my_personal_website/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

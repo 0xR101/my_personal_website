@@ -2,10 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:35497/categories/</loc>
+    <loc>http://localhost:45323/my_personal_website/tags/condensed-matter/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:35497/tags/</loc>
+    <loc>http://localhost:45323/my_personal_website/posts/spin-qubits-intro/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:35497/</loc>
+    <loc>http://localhost:45323/my_personal_website/tags/physics/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45323/my_personal_website/posts/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45323/my_personal_website/tags/quantum-computing/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45323/my_personal_website/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45323/my_personal_website/tags/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45323/my_personal_website/posts/reversible-computing-effeciency/</loc>
+    <lastmod>2026-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45323/my_personal_website/tags/research/</loc>
+    <lastmod>2026-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45323/my_personal_website/tags/reversible-computing/</loc>
+    <lastmod>2026-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45323/my_personal_website/tags/thermodynamics/</loc>
+    <lastmod>2026-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45323/my_personal_website/categories/</loc>
   </url>
 </urlset>

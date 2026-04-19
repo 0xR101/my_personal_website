@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your Name</title>
-    <link>http://localhost:35497/tags/</link>
-    <description>Designer, developer, and writer.</description>
+    <title>Rayyan Raza</title>
+    <link>http://localhost:45323/my_personal_website/tags/</link>
+    <description>Physics Researcher</description>
     <generator>Hugo 0.160.1</generator>
     <language>en</language>
-    <managingEditor>Your Name</managingEditor>
-    
-    <atom:link href="http://localhost:35497/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>Rayyan Raza</managingEditor>
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:45323/my_personal_website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Condensed Matter</title>
+      <link>http://localhost:45323/my_personal_website/tags/condensed-matter/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45323/my_personal_website/tags/condensed-matter/</guid>
+      <description><![CDATA[]]></description>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>http://localhost:45323/my_personal_website/tags/physics/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45323/my_personal_website/tags/physics/</guid>
+      <description><![CDATA[]]></description>
+    </item>
+    <item>
+      <title>Quantum Computing</title>
+      <link>http://localhost:45323/my_personal_website/tags/quantum-computing/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45323/my_personal_website/tags/quantum-computing/</guid>
+      <description><![CDATA[]]></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:45323/my_personal_website/tags/research/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45323/my_personal_website/tags/research/</guid>
+      <description><![CDATA[]]></description>
+    </item>
+    <item>
+      <title>Reversible Computing</title>
+      <link>http://localhost:45323/my_personal_website/tags/reversible-computing/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45323/my_personal_website/tags/reversible-computing/</guid>
+      <description><![CDATA[]]></description>
+    </item>
+    <item>
+      <title>Thermodynamics</title>
+      <link>http://localhost:45323/my_personal_website/tags/thermodynamics/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45323/my_personal_website/tags/thermodynamics/</guid>
+      <description><![CDATA[]]></description>
+    </item>
   </channel>
 </rss>
