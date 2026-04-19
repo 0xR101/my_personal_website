@@ -2,6 +2,8 @@
 title: "Dynamics of Spin Qubits in Semiconductor Quantum Dots"
 date: 2026-04-15
 draft: false
+math: true
+
 tags: ["Quantum Computing", "Condensed Matter", "Physics"]
 description: "A brief overview of spin qubit Hamiltonian dynamics and gate implementations."
 ---
