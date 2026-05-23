@@ -28,6 +28,7 @@
       document.documentElement.dataset.theme = 'dark';
     }
   })();
+  
 </script>
 
 
@@ -101,6 +102,23 @@
     ]
   })">
 </script>
+<style>
+  .site-title, 
+  .header-nav a {
+    white-space: nowrap; 
+  }
+  .header .container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; 
+  }
+</style>
 </head>
 <body><header class="header" id="site-header">
   <div class="container">
