@@ -2,7 +2,7 @@
 
 A fully automated, serverless research tool that collects and displays the latest academic papers in **quantum computing** and **spin qubits** from arXiv — refreshed every morning with zero manual effort.
 
-**Live site:** [0xr101.github.io/my_personal_website](https://0xr101.github.io/my_personal_website/)
+**Live site:** [0xr101.github.io/Papers_Aggregator](https://0xr101.github.io/Papers_Aggregator//)
 
 ---
 
