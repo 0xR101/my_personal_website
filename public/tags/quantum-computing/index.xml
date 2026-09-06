@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rayyan Raza</title>
-    <link>http://localhost:45323/my_personal_website/tags/quantum-computing/</link>
-    <description>Physics Researcher</description>
-    <generator>Hugo 0.160.1</generator>
-    <language>en</language>
-    <managingEditor>Rayyan Raza</managingEditor>
-    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:45323/my_personal_website/tags/quantum-computing/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Dynamics of Spin Qubits in Semiconductor Quantum Dots</title>
-      <link>http://localhost:45323/my_personal_website/posts/spin-qubits-intro/</link>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:45323/my_personal_website/posts/spin-qubits-intro/</guid>
-      <description><![CDATA[<p>In this post, we will briefly explore the fundamental mechanisms governing spin qubits confined in semiconductor quantum dots.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rayyan Raza</title><link>https://0xR101.github.io/my_personal_website/tags/quantum-computing/</link><description>Physics Researcher</description><generator>Hugo 0.165.0</generator><language>en</language><managingEditor>Rayyan Raza</managingEditor><lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://0xR101.github.io/my_personal_website/tags/quantum-computing/index.xml" rel="self" type="application/rss+xml"/><item><title>Dynamics of Spin Qubits in Semiconductor Quantum Dots</title><link>https://0xR101.github.io/my_personal_website/posts/spin-qubits-intro/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/posts/spin-qubits-intro/</guid><description><![CDATA[<p>In this post, we will briefly explore the fundamental mechanisms governing spin qubits confined in semiconductor quantum dots.</p>
 <p>The time evolution of the electron spin state in the presence of an external magnetic field is determined by the Zeeman Hamiltonian. We can express this fundamental relationship as:</p>
 $$\hat{H} = \frac{1}{2} g \mu_B \vec{B} \cdot \vec{\sigma}$$<p>Where:</p>
 <ul>
@@ -30,7 +14,4 @@ $$\hat{H} = \frac{1}{2} g \mu_B \vec{B} \cdot \vec{\sigma}$$<p>Where:</p>
 <li>Gate fidelity and error correction mechanisms</li>
 <li>Scalability of quantum dot arrays</li>
 </ol>
-]]></description>
-    </item>
-  </channel>
-</rss>
+]]></description></item></channel></rss>

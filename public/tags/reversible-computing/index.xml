@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rayyan Raza</title>
-    <link>http://localhost:45323/my_personal_website/tags/reversible-computing/</link>
-    <description>Physics Researcher</description>
-    <generator>Hugo 0.160.1</generator>
-    <language>en</language>
-    <managingEditor>Rayyan Raza</managingEditor>
-    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:45323/my_personal_website/tags/reversible-computing/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Energy Efficiency in Reversible Quantum Circuits</title>
-      <link>http://localhost:45323/my_personal_website/posts/reversible-computing-effeciency/</link>
-      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:45323/my_personal_website/posts/reversible-computing-effeciency/</guid>
-      <description><![CDATA[<p>Landauer&rsquo;s principle establishes a fundamental lower bound on the energy consumption of irreversible computation. By employing reversible computing architectures, we theoretically circumvent this thermodynamic limit.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rayyan Raza</title><link>https://0xR101.github.io/my_personal_website/tags/reversible-computing/</link><description>Physics Researcher</description><generator>Hugo 0.165.0</generator><language>en</language><managingEditor>Rayyan Raza</managingEditor><lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://0xR101.github.io/my_personal_website/tags/reversible-computing/index.xml" rel="self" type="application/rss+xml"/><item><title>Energy Efficiency in Reversible Quantum Circuits</title><link>https://0xR101.github.io/my_personal_website/posts/reversible-computing-effeciency/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/posts/reversible-computing-effeciency/</guid><description><![CDATA[<p>Landauer&rsquo;s principle establishes a fundamental lower bound on the energy consumption of irreversible computation. By employing reversible computing architectures, we theoretically circumvent this thermodynamic limit.</p>
 <p>This research focuses on the optimization of quantum logic gates to minimize energy dissipation.</p>
 <h3 id="current-benchmarks">Current Benchmarks</h3>
 <p>Recent simulations indicate a significant reduction in gate error rates when applying optimized pulse sequences. The transition from classical logical irreversibility to quantum reversibility requires a paradigm shift in how we approach circuit design.</p>
@@ -22,7 +6,4 @@
 <p>&ldquo;Information is physical.&rdquo; — Rolf Landauer</p>
 </blockquote>
 <p>More detailed findings from our recent simulations will be presented at the upcoming symposium.</p>
-]]></description>
-    </item>
-  </channel>
-</rss>
+]]></description></item></channel></rss>

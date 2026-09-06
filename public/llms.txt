@@ -1,7 +1,13 @@
 # Rayyan Raza
 
 > Physics Researcher
+- [About Me](https://0xR101.github.io/my_personal_website/about/): Academic background and research focus.
 
 ## Posts
-- [Dynamics of Spin Qubits in Semiconductor Quantum Dots](http://localhost:45323/my_personal_website/posts/spin-qubits-intro/): A brief overview of spin qubit Hamiltonian dynamics and gate implementations.
-- [Energy Efficiency in Reversible Quantum Circuits](http://localhost:45323/my_personal_website/posts/reversible-computing-effeciency/): Analyzing the thermodynamic limits of computation through reversible logic gates.
+- [Dynamics of Spin Qubits in Semiconductor Quantum Dots](https://0xR101.github.io/my_personal_website/posts/spin-qubits-intro/): A brief overview of spin qubit Hamiltonian dynamics and gate implementations.
+- [Energy Efficiency in Reversible Quantum Circuits](https://0xR101.github.io/my_personal_website/posts/reversible-computing-effeciency/): Analyzing the thermodynamic limits of computation through reversible logic gates.
+
+## Publications
+- [](https://0xR101.github.io/my_personal_website/publications/papers_aggregators/)
+- [](https://0xR101.github.io/my_personal_website/publications/quantum_mechanics/)
+- [](https://0xR101.github.io/my_personal_website/publications/statistical_mechanics/)

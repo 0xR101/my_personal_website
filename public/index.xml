@@ -1,20 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rayyan Raza</title>
-    <link>http://localhost:45323/my_personal_website/</link>
-    <description>Physics Researcher</description>
-    <generator>Hugo 0.160.1</generator>
-    <language>en</language>
-    <managingEditor>Rayyan Raza</managingEditor>
-    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:45323/my_personal_website/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Dynamics of Spin Qubits in Semiconductor Quantum Dots</title>
-      <link>http://localhost:45323/my_personal_website/posts/spin-qubits-intro/</link>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:45323/my_personal_website/posts/spin-qubits-intro/</guid>
-      <description><![CDATA[<p>In this post, we will briefly explore the fundamental mechanisms governing spin qubits confined in semiconductor quantum dots.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rayyan Raza</title><link>https://0xR101.github.io/my_personal_website/</link><description>Physics Researcher</description><generator>Hugo 0.165.0</generator><language>en</language><managingEditor>Rayyan Raza</managingEditor><lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://0xR101.github.io/my_personal_website/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://0xR101.github.io/my_personal_website/about/</link><pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/about/</guid><description><![CDATA[<p>I am a PhD researcher in Theoretical Physics at King Fahd University of Petroleum and Minerals (KFUPM), specializing in Condensed Matter Physics and quantum information processing. My doctoral research is currently conducted at the Interdisciplinary Research Center for Advanced Quantum Computing, under the supervision of Professor Daniel Loss.</p>
+<p>My academic journey is driven by a deep interest in the fundamental mechanics of quantum systems and the physical realization of quantum computation. Prior to my doctoral studies, I completed my undergraduate degree with highest honors (3.96/4.00 CGPA), developing a rigorous foundation in physics alongside advanced computational and engineering methodologies. During my senior year, I also served as the President of the Physics Club, fostering academic engagement within the student body.</p>
+<h3 id="research-interests">Research Interests</h3>
+<p>My primary research investigates the dynamics of solid-state quantum systems, with a specific focus on:</p>
+<ul>
+<li><strong>Spin Qubits &amp; Semiconductor Quantum Dots:</strong> Analyzing Hamiltonian dynamics, coherence times, and high-fidelity state manipulation.</li>
+<li><strong>Reversible Computing:</strong> Exploring the thermodynamic limits of computation and energy efficiency in quantum circuits.</li>
+<li><strong>Quantum Circuit Design:</strong> Implementing theoretical models into computational simulations to benchmark gate operations.</li>
+</ul>
+<h3 id="academic-experience--collaborations">Academic Experience &amp; Collaborations</h3>
+<p>I actively collaborate with international institutions to bridge the gap between theoretical models and experimental fabrication.</p>
+<ul>
+<li><strong>Institute for Quantum Computing (IQC), University of Waterloo:</strong> Completed a three-month research residency focused on the evaluation and modeling of fabricated qubits.</li>
+<li><strong>NCCR SPIN:</strong> Upcoming research collaboration (June 2026) focusing on advanced spin-based quantum architectures.</li>
+<li><strong>King Fahd University of Petroleum and Minerals:</strong> Teaching Assistant for advanced physics and quantum computing coursework (PHYS590), overseeing student instruction and academic administration.</li>
+</ul>
+<h3 id="computational-methods">Computational Methods</h3>
+<p>Modern theoretical physics requires robust computational frameworks. My research heavily utilizes numerical simulations and quantum programming environments to validate physical models.</p>
+<ul>
+<li><strong>Quantum Frameworks:</strong> QuTiP, PennyLane, Qiskit</li>
+<li><strong>Environments &amp; Tools:</strong> Python, Linux (Ubuntu), LaTeX</li>
+</ul>
+<p>If you wish to discuss potential collaborations, research findings, or academic inquiries, please reach out via the contact information provided on the homepage.</p>
+]]></description></item><item><title>Dynamics of Spin Qubits in Semiconductor Quantum Dots</title><link>https://0xR101.github.io/my_personal_website/posts/spin-qubits-intro/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/posts/spin-qubits-intro/</guid><description><![CDATA[<p>In this post, we will briefly explore the fundamental mechanisms governing spin qubits confined in semiconductor quantum dots.</p>
 <p>The time evolution of the electron spin state in the presence of an external magnetic field is determined by the Zeeman Hamiltonian. We can express this fundamental relationship as:</p>
 $$\hat{H} = \frac{1}{2} g \mu_B \vec{B} \cdot \vec{\sigma}$$<p>Where:</p>
 <ul>
@@ -30,14 +37,7 @@ $$\hat{H} = \frac{1}{2} g \mu_B \vec{B} \cdot \vec{\sigma}$$<p>Where:</p>
 <li>Gate fidelity and error correction mechanisms</li>
 <li>Scalability of quantum dot arrays</li>
 </ol>
-]]></description>
-    </item>
-    <item>
-      <title>Energy Efficiency in Reversible Quantum Circuits</title>
-      <link>http://localhost:45323/my_personal_website/posts/reversible-computing-effeciency/</link>
-      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:45323/my_personal_website/posts/reversible-computing-effeciency/</guid>
-      <description><![CDATA[<p>Landauer&rsquo;s principle establishes a fundamental lower bound on the energy consumption of irreversible computation. By employing reversible computing architectures, we theoretically circumvent this thermodynamic limit.</p>
+]]></description></item><item><title>Energy Efficiency in Reversible Quantum Circuits</title><link>https://0xR101.github.io/my_personal_website/posts/reversible-computing-effeciency/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/posts/reversible-computing-effeciency/</guid><description><![CDATA[<p>Landauer&rsquo;s principle establishes a fundamental lower bound on the energy consumption of irreversible computation. By employing reversible computing architectures, we theoretically circumvent this thermodynamic limit.</p>
 <p>This research focuses on the optimization of quantum logic gates to minimize energy dissipation.</p>
 <h3 id="current-benchmarks">Current Benchmarks</h3>
 <p>Recent simulations indicate a significant reduction in gate error rates when applying optimized pulse sequences. The transition from classical logical irreversibility to quantum reversibility requires a paradigm shift in how we approach circuit design.</p>
@@ -45,7 +45,4 @@ $$\hat{H} = \frac{1}{2} g \mu_B \vec{B} \cdot \vec{\sigma}$$<p>Where:</p>
 <p>&ldquo;Information is physical.&rdquo; — Rolf Landauer</p>
 </blockquote>
 <p>More detailed findings from our recent simulations will be presented at the upcoming symposium.</p>
-]]></description>
-    </item>
-  </channel>
-</rss>
+]]></description></item></channel></rss>
