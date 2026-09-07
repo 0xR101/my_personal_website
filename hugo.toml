@@ -34,6 +34,7 @@ theme = "ink"
     name = "Blog"
     url = "/posts/"
 
+
 # Navigation menu
 [menu]
   [[menu.main]]
