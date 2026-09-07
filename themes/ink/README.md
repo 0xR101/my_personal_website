@@ -23,7 +23,6 @@ Built by [Vinoo Ganesh](https://vinoo.io) ([GitHub](https://github.com/vinoogane
 - No JavaScript frameworks — vanilla inline JS only
 - Fuzzy search powered by [Fuse.js](https://www.fusejs.io/) (loaded only on search page)
 - `llms.txt` output — structured site index for AI crawlers
-- Ask AI buttons — one-click prompt to Claude, ChatGPT, Perplexity
 - JSON-LD structured data (Article, WebSite, WebPage)
 - Table of Contents (collapsible, per-post opt-in)
 - Related posts (auto-generated, 3-column grid)
@@ -180,18 +179,6 @@ theme = "ink"
     name = "Blog"
     url = "/posts/"
 
-  # Ask AI buttons — shown on homepage, configurable
-  # If omitted entirely, defaults to Claude, ChatGPT, and Perplexity
-  # Use PROMPT in URL for tools with native query support
-  [[params.askAI]]
-    name = "Claude"
-    url = "https://claude.ai/new"
-  [[params.askAI]]
-    name = "ChatGPT"
-    url = "https://chatgpt.com/"
-  [[params.askAI]]
-    name = "Perplexity"
-    url = "https://perplexity.ai/search?q=PROMPT"
 
 # Navigation menu
 [menu]
@@ -244,7 +231,6 @@ theme = "ink"
 | `favicon` | string | — | Favicon path |
 | `recentPostsCount` | int | `3` | Number of posts on homepage |
 | `socialLinks` | array | — | Social links in hero section |
-| `askAI` | array | Claude, ChatGPT, Perplexity | AI prompt buttons on homepage |
 
 ---
 
@@ -367,30 +353,9 @@ The theme uses 17 CSS custom properties with full light/dark pairs. Override the
 | `--selection-text` | `#fff` | `#1c1917` | Text selection text |
 | `--hover-bg` | `#f5f5f4` | `#292524` | Card hover background |
 
-### Ask AI Buttons
-
-Configurable via `params.askAI`. If omitted entirely, defaults to Claude, ChatGPT, and Perplexity.
-
-Add any AI tool:
-
-```toml
-[[params.askAI]]
-  name = "Gemini"
-  url = "https://gemini.google.com/"
-```
-
-If a tool supports URL-based prompts, include `PROMPT` in the URL — it will be replaced with the auto-generated prompt. For tools without URL prompt support, the prompt is copied to clipboard before opening.
-
-To disable Ask AI buttons entirely, set an empty array:
-
-```toml
-[params]
-  askAI = []
-```
-
 ### i18n / Translations
 
-The theme ships with English (`i18n/en.yaml`). All 21 UI strings are translatable.
+The theme ships with English (`i18n/en.yaml`). All 20 UI strings are translatable.
 
 Create `i18n/xx.yaml` in your site root for your language:
 
@@ -411,7 +376,6 @@ copy: "copiar"
 copied: "Copiado!"
 toc_title: "Tabla de contenidos"
 related_posts: "Articulos relacionados"
-ask_ai_label: "Pregunta a la IA sobre este sitio"
 page_not_found: "Pagina no encontrada"
 back_home: "Volver al inicio"
 series: "Serie"

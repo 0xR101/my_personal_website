@@ -1,34 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rayyan Raza</title>
-    <link>http://localhost:1313/my_personal_website/tags/spin-qubits/</link>
-    <description>Physics Researcher</description>
-    <generator>Hugo 0.165.0</generator>
-    <language>en</language>
-    <managingEditor>Rayyan Raza</managingEditor>
-    <lastBuildDate>Mon, 07 Sep 2026 12:19:52 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/my_personal_website/tags/spin-qubits/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Coherence Engineering in Semiconductor Spin Qubits</title>
-      <link>http://localhost:1313/my_personal_website/experience/demo-invited-talk-eth-zurich/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/my_personal_website/experience/demo-invited-talk-eth-zurich/</guid>
-      <description><![CDATA[<p>An invited talk covering our recent results on <strong>coherence engineering</strong> in
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rayyan Raza</title><link>https://0xR101.github.io/my_personal_website/tags/spin-qubits/</link><description>Physics Researcher</description><generator>Hugo 0.165.0</generator><language>en</language><managingEditor>Rayyan Raza</managingEditor><lastBuildDate>Mon, 07 Sep 2026 12:19:52 +0300</lastBuildDate><atom:link href="https://0xR101.github.io/my_personal_website/tags/spin-qubits/index.xml" rel="self" type="application/rss+xml"/><item><title>Coherence Engineering in Semiconductor Spin Qubits</title><link>https://0xR101.github.io/my_personal_website/experience/demo-invited-talk-eth-zurich/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/experience/demo-invited-talk-eth-zurich/</guid><description><![CDATA[<p>An invited talk covering our recent results on <strong>coherence engineering</strong> in
 Si/SiGe double quantum dots, including the dependence of $T_2^*$ on isotopic
 purification and the trade-off against valley splitting.</p>
 <p>This entry demonstrates everything at once: captions, tags, prose, and a
 multi-photo grid.</p>
-]]></description>
-    </item>
-    <item>
-      <title>APS March Meeting 2026</title>
-      <link>http://localhost:1313/my_personal_website/experience/demo-aps-march-meeting-2026/</link>
-      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/my_personal_website/experience/demo-aps-march-meeting-2026/</guid>
-      <description><![CDATA[<p>The largest physics meeting of the year. Presented in Session B42 and spent the
-rest of the week in the quantum information and semiconductor qubit sessions.</p>
-]]></description>
-    </item>
-  </channel>
-</rss>
+]]></description></item><item><title>APS March Meeting 2026</title><link>https://0xR101.github.io/my_personal_website/experience/demo-aps-march-meeting-2026/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/experience/demo-aps-march-meeting-2026/</guid><description>&lt;p>The largest physics meeting of the year. Presented in Session B42 and spent the
+rest of the week in the quantum information and semiconductor qubit sessions.&lt;/p>
+</description></item></channel></rss>

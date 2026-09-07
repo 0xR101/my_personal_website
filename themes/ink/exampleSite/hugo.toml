@@ -28,19 +28,6 @@ theme = "ink"
     name = "Blog"
     url = "/posts/"
 
-  # Ask AI buttons — customize which tools appear on the homepage.
-  # If omitted, defaults to Claude, ChatGPT, and Perplexity.
-  # Use PROMPT in the URL for tools with native query param support.
-  [[params.askAI]]
-    name = "Claude"
-    url = "https://claude.ai/new"
-  [[params.askAI]]
-    name = "ChatGPT"
-    url = "https://chatgpt.com/"
-  [[params.askAI]]
-    name = "Perplexity"
-    url = "https://perplexity.ai/search?q=PROMPT"
-
 [menu]
   [[menu.main]]
     name = "Now"

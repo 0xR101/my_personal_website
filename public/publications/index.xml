@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rayyan Raza</title>
-    <link>http://localhost:1313/my_personal_website/publications/</link>
-    <description>Physics Researcher</description>
-    <generator>Hugo 0.165.0</generator>
-    <language>en</language>
-    <managingEditor>Rayyan Raza</managingEditor>
-    <lastBuildDate>Mon, 07 Sep 2026 12:19:52 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/my_personal_website/publications/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://localhost:1313/my_personal_website/publications/papers_aggregators/</link>
-      <pubDate>Mon, 07 Sep 2026 02:33:09 +0300</pubDate>
-      <guid>http://localhost:1313/my_personal_website/publications/papers_aggregators/</guid>
-      <description><![CDATA[<h1 id="quantum-papers-aggregator">Quantum Papers Aggregator</h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rayyan Raza</title><link>https://0xR101.github.io/my_personal_website/publications/</link><description>Physics Researcher</description><generator>Hugo 0.165.0</generator><language>en</language><managingEditor>Rayyan Raza</managingEditor><lastBuildDate>Mon, 07 Sep 2026 12:19:52 +0300</lastBuildDate><atom:link href="https://0xR101.github.io/my_personal_website/publications/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://0xR101.github.io/my_personal_website/publications/papers_aggregators/</link><pubDate>Mon, 07 Sep 2026 02:33:09 +0300</pubDate><guid>https://0xR101.github.io/my_personal_website/publications/papers_aggregators/</guid><description><![CDATA[<h1 id="quantum-papers-aggregator">Quantum Papers Aggregator</h1>
 <p>A fully automated, serverless research tool that collects and displays the latest academic papers in <strong>quantum computing</strong> and <strong>spin qubits</strong> from arXiv — refreshed every morning with zero manual effort.</p>
 <p><strong>Live site:</strong> <a href="https://0xr101.github.io/Papers_Aggregator//">0xr101.github.io/Papers_Aggregator</a></p>
 <hr>
@@ -33,23 +17,6 @@
 <li><strong>Fully static</strong> — no backend, no database, no server costs</li>
 </ul>
 <hr>
-]]></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/my_personal_website/publications/quantum_mechanics/</link>
-      <pubDate>Mon, 07 Sep 2026 02:33:09 +0300</pubDate>
-      <guid>http://localhost:1313/my_personal_website/publications/quantum_mechanics/</guid>
-      <description><![CDATA[<h1 id="quantum-mechanics">Quantum Mechanics</h1>
-<p>This book will be updated later on.</p>
-]]></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/my_personal_website/publications/statistical_mechanics/</link>
-      <pubDate>Mon, 07 Sep 2026 02:33:09 +0300</pubDate>
-      <guid>http://localhost:1313/my_personal_website/publications/statistical_mechanics/</guid>
-      <description><![CDATA[]]></description>
-    </item>
-  </channel>
-</rss>
+]]></description></item><item><title/><link>https://0xR101.github.io/my_personal_website/publications/quantum_mechanics/</link><pubDate>Mon, 07 Sep 2026 02:33:09 +0300</pubDate><guid>https://0xR101.github.io/my_personal_website/publications/quantum_mechanics/</guid><description>&lt;h1 id="quantum-mechanics">Quantum Mechanics&lt;/h1>
+&lt;p>This book will be updated later on.&lt;/p>
+</description></item><item><title/><link>https://0xR101.github.io/my_personal_website/publications/statistical_mechanics/</link><pubDate>Mon, 07 Sep 2026 02:33:09 +0300</pubDate><guid>https://0xR101.github.io/my_personal_website/publications/statistical_mechanics/</guid><description></description></item></channel></rss>

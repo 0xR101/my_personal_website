@@ -34,20 +34,6 @@ theme = "ink"
     name = "Blog"
     url = "/posts/"
 
-  # Ask AI buttons — shown on homepage, configurable
-  # Use PROMPT in URL for tools with native query support
-  [[params.askAI]]
-    name = "Claude"
-    url = "https://claude.ai/new"
-  
-  [[params.askAI]]
-    name = "ChatGPT"
-    url = "https://chatgpt.com/"
-  
-  [[params.askAI]]
-    name = "Perplexity"
-    url = "https://perplexity.ai/search?q=PROMPT"
-
 # Navigation menu
 [menu]
   [[menu.main]]
