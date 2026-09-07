@@ -9,7 +9,9 @@ theme = "ink"
   homeSubtitle = "Physics Researcher"
   homeBio = "I am a physics researcher specializing in theoretical physics, exploring complex systems, and writing about my academic journey."
   homeImage = "/images/profile/personal_photo.jpg"    # Avatar on homepage (place in static/images/, renders as 110px circle)
-  favicon = "/favicon.ico"            # Place in static/
+  # Icon links are emitted by layouts/_default/baseof.html so they respect
+  # the /my_personal_website/ base path; the theme's own favicon param
+  # hardcodes a root-relative href and would 404 on GitHub Pages.
   recentPostsCount = 3               # Posts shown on homepage (default: 3)             # Posts shown on homepage (default: 3)
   math = true
 

@@ -1,31 +1,31 @@
 # Rayyan Raza
 
 > Physics Researcher
-- [About Me](https://0xR101.github.io/my_personal_website/about/): Academic background and research focus.
+- [About Me](http://localhost:1313/my_personal_website/about/): Academic background and research focus.
 
 ## Experience
-- [](https://0xR101.github.io/my_personal_website/experience/demo-bare-folder-example/)
-- [NCCR SPIN](https://0xR101.github.io/my_personal_website/experience/nccr-spin-collaboration/): Research collaboration on advanced spin-based quantum architectures.
-- [Coherence Engineering in Semiconductor Spin Qubits](https://0xR101.github.io/my_personal_website/experience/demo-invited-talk-eth-zurich/): Invited talk on extending coherence times in Si/SiGe double quantum dots.
-- [APS March Meeting 2026](https://0xR101.github.io/my_personal_website/experience/demo-aps-march-meeting-2026/): Presented results on spin qubit coherence in Session B42; four days of condensed matter sessions.
-- [Hyperfine Noise in Si/SiGe Quantum Dots](https://0xR101.github.io/my_personal_website/experience/demo-loss-group-seminar/): Group seminar on nuclear-spin bath dynamics and their effect on gate fidelity.
-- [Quantum Information Processing (QIP) 2026](https://0xR101.github.io/my_personal_website/experience/demo-qip-2026/): Poster session on gate-fidelity benchmarking for exchange-coupled qubit pairs.
-- [Thermodynamic Limits of Reversible Logic](https://0xR101.github.io/my_personal_website/experience/demo-contributed-talk-reversible-logic/): Contributed talk on Landauer-limit energy costs in reversible circuit families.
-- [KFUPM Physics Colloquium](https://0xR101.github.io/my_personal_website/experience/demo-kfupm-colloquium/): Departmental colloquium introducing quantum computing to a general physics audience.
-- [Entry With No Kind Set](https://0xR101.github.io/my_personal_website/experience/demo-unclassified-example/): This entry deliberately omits `kind:`, so it falls into the 'Other' group at the bottom rather than disappearing.
-- [Institute for Quantum Computing, University of Waterloo](https://0xR101.github.io/my_personal_website/experience/iqc-waterloo-residency/): Three-month research residency on the evaluation and modelling of fabricated qubits.
-- [Max Planck Institute for Solid State Research](https://0xR101.github.io/my_personal_website/experience/demo-mpi-stuttgart-visit/): Two-week visit to discuss fabrication of isotopically purified heterostructures.
+- [](http://localhost:1313/my_personal_website/experience/demo-bare-folder-example/)
+- [NCCR SPIN](http://localhost:1313/my_personal_website/experience/nccr-spin-collaboration/): Research collaboration on advanced spin-based quantum architectures.
+- [Coherence Engineering in Semiconductor Spin Qubits](http://localhost:1313/my_personal_website/experience/demo-invited-talk-eth-zurich/): Invited talk on extending coherence times in Si/SiGe double quantum dots.
+- [APS March Meeting 2026](http://localhost:1313/my_personal_website/experience/demo-aps-march-meeting-2026/): Presented results on spin qubit coherence in Session B42; four days of condensed matter sessions.
+- [Hyperfine Noise in Si/SiGe Quantum Dots](http://localhost:1313/my_personal_website/experience/demo-loss-group-seminar/): Group seminar on nuclear-spin bath dynamics and their effect on gate fidelity.
+- [Quantum Information Processing (QIP) 2026](http://localhost:1313/my_personal_website/experience/demo-qip-2026/): Poster session on gate-fidelity benchmarking for exchange-coupled qubit pairs.
+- [Thermodynamic Limits of Reversible Logic](http://localhost:1313/my_personal_website/experience/demo-contributed-talk-reversible-logic/): Contributed talk on Landauer-limit energy costs in reversible circuit families.
+- [KFUPM Physics Colloquium](http://localhost:1313/my_personal_website/experience/demo-kfupm-colloquium/): Departmental colloquium introducing quantum computing to a general physics audience.
+- [Entry With No Kind Set](http://localhost:1313/my_personal_website/experience/demo-unclassified-example/): This entry deliberately omits `kind:`, so it falls into the 'Other' group at the bottom rather than disappearing.
+- [Institute for Quantum Computing, University of Waterloo](http://localhost:1313/my_personal_website/experience/iqc-waterloo-residency/): Three-month research residency on the evaluation and modelling of fabricated qubits.
+- [Max Planck Institute for Solid State Research](http://localhost:1313/my_personal_website/experience/demo-mpi-stuttgart-visit/): Two-week visit to discuss fabrication of isotopically purified heterostructures.
 
 ## Life
-- [Hiking in the Swiss Alps](https://0xR101.github.io/my_personal_website/life/demo-hiking-swiss-alps/): A weekend in the Bernese Oberland during the NCCR SPIN collaboration.
-- [Film Photography](https://0xR101.github.io/my_personal_website/life/demo-film-photography/): Shooting 35mm around the Eastern Province.
-- [Bouldering](https://0xR101.github.io/my_personal_website/life/demo-bouldering/): Weekly sessions at the local gym.
+- [Hiking in the Swiss Alps](http://localhost:1313/my_personal_website/life/demo-hiking-swiss-alps/): A weekend in the Bernese Oberland during the NCCR SPIN collaboration.
+- [Film Photography](http://localhost:1313/my_personal_website/life/demo-film-photography/): Shooting 35mm around the Eastern Province.
+- [Bouldering](http://localhost:1313/my_personal_website/life/demo-bouldering/): Weekly sessions at the local gym.
 
 ## Publications
-- [](https://0xR101.github.io/my_personal_website/publications/papers_aggregators/)
-- [](https://0xR101.github.io/my_personal_website/publications/quantum_mechanics/)
-- [](https://0xR101.github.io/my_personal_website/publications/statistical_mechanics/)
+- [](http://localhost:1313/my_personal_website/publications/papers_aggregators/)
+- [](http://localhost:1313/my_personal_website/publications/quantum_mechanics/)
+- [](http://localhost:1313/my_personal_website/publications/statistical_mechanics/)
 
 ## Posts
-- [Dynamics of Spin Qubits in Semiconductor Quantum Dots](https://0xR101.github.io/my_personal_website/posts/spin-qubits-intro/): A brief overview of spin qubit Hamiltonian dynamics and gate implementations.
-- [Energy Efficiency in Reversible Quantum Circuits](https://0xR101.github.io/my_personal_website/posts/reversible-computing-effeciency/): Analyzing the thermodynamic limits of computation through reversible logic gates.
+- [Dynamics of Spin Qubits in Semiconductor Quantum Dots](http://localhost:1313/my_personal_website/posts/spin-qubits-intro/): A brief overview of spin qubit Hamiltonian dynamics and gate implementations.
+- [Energy Efficiency in Reversible Quantum Circuits](http://localhost:1313/my_personal_website/posts/reversible-computing-effeciency/): Analyzing the thermodynamic limits of computation through reversible logic gates.

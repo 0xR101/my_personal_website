@@ -2,6 +2,17 @@
 <html lang="{{ site.Language }}" data-theme="light">
 <head>
   {{- partial "head.html" . }}
+  {{- $overrides := resources.Get "css/overrides.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $overrides.RelPermalink }}" integrity="{{ $overrides.Data.Integrity }}">
+  {{- /* Icons and share image. Emitted here rather than by the theme: the
+         theme's head.html writes site.Params.favicon verbatim, which drops the
+         base path and 404s on a project-subpath deploy like GitHub Pages. */}}
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="16x16 32x32 48x48">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+  {{- if not .Params.cover }}{{ with site.Params.homeImage }}
+  <meta property="og:image" content="{{ strings.TrimLeft "/" . | absURL }}">
+  <meta name="twitter:image" content="{{ strings.TrimLeft "/" . | absURL }}">
+  {{- end }}{{ end }}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"

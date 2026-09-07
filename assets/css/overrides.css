@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Project overrides on top of the Ink theme.
+   Loaded on every page after the theme stylesheet, so equal-specificity
+   rules here win. Keeps themes/ink/ untouched and upgradeable.
+   ========================================================================== */
+
+/* The theme's 680px container was sized for 3-4 nav items. This site has six,
+   plus the title, search icon and theme toggle — they overflowed. */
+.container {
+    max-width: 820px;
+}
+
+/* Safety net: if the nav ever outgrows even 820px (longer labels, a new
+   section), wrap onto a second line rather than overflowing the viewport. */
+.header-nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    row-gap: 0.4rem;
+}
+
+/* The hero bio keeps its own narrow measure, so the homepage intro does not
+   stretch to the full width of the wider shell. */
+.hero-bio {
+    max-width: 560px;
+}
+
+@media (max-width: 640px) {
+    /* Let the six nav items wrap tidily on phones instead of being squeezed. */
+    .header-nav {
+        gap: 0.7rem;
+        row-gap: 0.3rem;
+    }
+}
