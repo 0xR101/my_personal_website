@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rayyan Raza</title>
-    <link>https://0xR101.github.io/my_personal_website/categories/</link>
+    <link>http://localhost:1313/my_personal_website/categories/</link>
     <description>Physics Researcher</description>
     <generator>Hugo 0.165.0</generator>
     <language>en</language>
     <managingEditor>Rayyan Raza</managingEditor>
     <lastBuildDate>Mon, 07 Sep 2026 12:19:52 +0300</lastBuildDate>
-    <atom:link href="https://0xR101.github.io/my_personal_website/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/my_personal_website/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

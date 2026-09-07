@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rayyan Raza</title>
-    <link>https://0xR101.github.io/my_personal_website/tags/condensed-matter/</link>
+    <link>http://localhost:1313/my_personal_website/tags/condensed-matter/</link>
     <description>Physics Researcher</description>
     <generator>Hugo 0.165.0</generator>
     <language>en</language>
     <managingEditor>Rayyan Raza</managingEditor>
     <lastBuildDate>Mon, 07 Sep 2026 12:19:52 +0300</lastBuildDate>
-    <atom:link href="https://0xR101.github.io/my_personal_website/tags/condensed-matter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/my_personal_website/tags/condensed-matter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dynamics of Spin Qubits in Semiconductor Quantum Dots</title>
-      <link>https://0xR101.github.io/my_personal_website/posts/spin-qubits-intro/</link>
+      <link>http://localhost:1313/my_personal_website/posts/spin-qubits-intro/</link>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://0xR101.github.io/my_personal_website/posts/spin-qubits-intro/</guid>
+      <guid>http://localhost:1313/my_personal_website/posts/spin-qubits-intro/</guid>
       <description><![CDATA[<p>In this post, we will briefly explore the fundamental mechanisms governing spin qubits confined in semiconductor quantum dots.</p>
 <p>The time evolution of the electron spin state in the presence of an external magnetic field is determined by the Zeeman Hamiltonian. We can express this fundamental relationship as:</p>
 $$\hat{H} = \frac{1}{2} g \mu_B \vec{B} \cdot \vec{\sigma}$$<p>Where:</p>

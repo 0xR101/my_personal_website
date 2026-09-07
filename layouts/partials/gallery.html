@@ -4,7 +4,10 @@
 <div class="gallery" data-lightbox>
   {{- range . }}
   {{- $thumb := .Fill "480x360 webp q80 Center" }}
-  {{- $full := cond (gt .Width 1800) (.Resize "1800x webp q85") . }}
+  {{- /* if/else, not cond: cond evaluates both branches, which would run
+         an upscaling Resize on every image and cache the discarded result. */}}
+  {{- $full := . }}
+  {{- if gt .Width 1800 }}{{ $full = .Resize "1800x webp q85" }}{{ end }}
   {{- $cap := .Params.caption | default "" }}
   <a class="gallery-item" href="{{ $full.RelPermalink }}" data-caption="{{ $cap }}">
     <img src="{{ $thumb.RelPermalink }}" alt="{{ $cap | default $title }}"

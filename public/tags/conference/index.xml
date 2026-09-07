@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rayyan Raza</title>
-    <link>https://0xR101.github.io/my_personal_website/tags/conference/</link>
+    <link>http://localhost:1313/my_personal_website/tags/conference/</link>
     <description>Physics Researcher</description>
     <generator>Hugo 0.165.0</generator>
     <language>en</language>
     <managingEditor>Rayyan Raza</managingEditor>
     <lastBuildDate>Mon, 07 Sep 2026 12:19:52 +0300</lastBuildDate>
-    <atom:link href="https://0xR101.github.io/my_personal_website/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/my_personal_website/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>APS March Meeting 2026</title>
-      <link>https://0xR101.github.io/my_personal_website/experience/demo-aps-march-meeting-2026/</link>
+      <link>http://localhost:1313/my_personal_website/experience/demo-aps-march-meeting-2026/</link>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://0xR101.github.io/my_personal_website/experience/demo-aps-march-meeting-2026/</guid>
+      <guid>http://localhost:1313/my_personal_website/experience/demo-aps-march-meeting-2026/</guid>
       <description><![CDATA[<p>The largest physics meeting of the year. Presented in Session B42 and spent the
 rest of the week in the quantum information and semiconductor qubit sessions.</p>
 ]]></description>
