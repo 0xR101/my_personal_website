@@ -6,7 +6,7 @@
 
   var items = [];
   grids.forEach(function (grid) {
-    grid.querySelectorAll(".gallery-item").forEach(function (a) { items.push(a); });
+    grid.querySelectorAll(".photo-link").forEach(function (a) { items.push(a); });
   });
   if (!items.length) return;
 

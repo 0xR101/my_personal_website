@@ -1,18 +1,32 @@
 {{- $imgs := partial "gallery-images.html" . -}}
 {{- $title := partial "entry-title.html" . -}}
 {{- with $imgs }}
-<div class="gallery" data-lightbox>
+<div class="photostream" data-lightbox>
   {{- range . }}
-  {{- $thumb := .Fill "480x360 webp q80 Center" }}
-  {{- /* if/else, not cond: cond evaluates both branches, which would run
-         an upscaling Resize on every image and cache the discarded result. */}}
+  {{- /* Display copy capped at 2x the text column; never upscale a small source. */}}
+  {{- $w := cond (gt .Width 1360) 1360 .Width }}
+  {{- $display := .Resize (printf "%dx webp q82" $w) }}
+  {{- /* if/else, not cond: cond evaluates both branches, which would run an
+         upscaling Resize on every image and cache the discarded result. */}}
   {{- $full := . }}
-  {{- if gt .Width 1800 }}{{ $full = .Resize "1800x webp q85" }}{{ end }}
+  {{- if gt .Width 2000 }}{{ $full = .Resize "2000x webp q85" }}{{ end }}
+  {{- /* Commentary under a photo: a sidecar .md file with the same basename
+         (03-photo.png -> 03-photo.md), else the `caption` resource param. */}}
+  {{- $base := strings.TrimSuffix (path.Ext .Name) .Name }}
+  {{- $note := $.Resources.GetMatch (printf "%s.md" $base) }}
   {{- $cap := .Params.caption | default "" }}
-  <a class="gallery-item" href="{{ $full.RelPermalink }}" data-caption="{{ $cap }}">
-    <img src="{{ $thumb.RelPermalink }}" alt="{{ $cap | default $title }}"
-         width="480" height="360" loading="lazy" decoding="async">
-  </a>
+  <figure class="photo">
+    <a class="photo-link" href="{{ $full.RelPermalink }}"
+       data-caption="{{ with $cap }}{{ . }}{{ else }}{{ with $note }}{{ .Content | plainify | chomp | truncate 140 }}{{ end }}{{ end }}">
+      <img src="{{ $display.RelPermalink }}" alt="{{ $cap | default $title }}"
+           width="{{ $display.Width }}" height="{{ $display.Height }}" loading="lazy" decoding="async">
+    </a>
+    {{- with $note }}
+    <figcaption class="photo-note">{{ .Content }}</figcaption>
+    {{- else }}{{ with $cap }}
+    <figcaption class="photo-note"><p>{{ . }}</p></figcaption>
+    {{- end }}{{ end }}
+  </figure>
   {{- end }}
 </div>
 {{- end }}

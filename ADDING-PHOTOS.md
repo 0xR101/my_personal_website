@@ -20,8 +20,9 @@ Use `hugo new life/<slug>` for the Life section instead.
 ```
 content/experience/aps-march-meeting-2026/
     index.md          <- front matter (all fields optional)
-    01-talk.jpg       <- filenames sort the grid
+    01-talk.jpg       <- filenames set the order down the page
     02-poster.jpg
+    02-poster.md      <- optional commentary under that photo
     03-dinner.jpg
 ```
 
@@ -62,23 +63,58 @@ kinds:
 
 Reorder, rename or add entries there. Nothing else needs to change.
 
-## Photo captions
+## Adding text between photos
 
-Optional. Add a `resources:` block to the entry's `index.md`:
+Photos stack vertically down the page, full width, in filename order — the
+reader just scrolls. To write something under a particular photo, drop a
+markdown file next to it with **the same name**:
+
+```
+content/life/film-photography/
+    index.md
+    01-photo.jpg
+    01-photo.md      <- renders under photo 1
+    02-photo.jpg     <- no .md, so no text
+    03-photo.jpg
+    03-photo.md      <- renders under photo 3
+```
+
+`01-photo.md` is plain markdown with no front matter — just write:
+
+```markdown
+First roll through the rangefinder after a full CLA. The light meter was
+still off by about a stop, which you can see here.
+```
+
+Multiple paragraphs, **bold**, links and LaTeX all work, exactly as in a post.
+Photos without a matching `.md` simply have no text under them.
+
+Prose in the entry's own `index.md` still renders once at the top, above the
+first photo — use that for an introduction.
+
+### Short one-liners instead
+
+For a single line, a `resources:` block in `index.md` avoids a separate file:
 
 ```yaml
 resources:
-  - src: "01-talk.jpg"
+  - src: "01-photo.jpg"
     params:
       caption: "Presenting in Session B42"
 ```
+
+Both work; a sidecar `.md` wins if you somehow have both for one photo.
 
 ## Notes
 
 - Thumbnails and WebP versions are generated at build time and cached in
   `resources/_gen/`. Do not commit that directory.
+- Photos run full width down the page in filename order, keeping their own
+  aspect ratio — portrait and landscape shots both display uncropped.
 - Clicking a photo opens a lightbox (arrow keys navigate, Esc closes). With
-  JavaScript disabled the thumbnail is still a link to the full-size image.
+  JavaScript disabled the photo is still a link to the full-size image.
+- Section list pages still show a small square thumbnail per entry; that is
+  cropped to 4:3 from the first photo.
 - `.jpg`, `.png`, `.gif`, `.webp`, `.tif` all work. SVGs are skipped — Hugo
   cannot resize them.
 - Photos in these folders are also published at their full size, since the
