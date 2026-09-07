@@ -4,10 +4,10 @@ title = "Rayyan Raza"
 theme = "ink"
 [params]
   author = "Rayyan Raza"
-  description = "Physics Researcher"
-  homeTitle = "Rayyan Raza"
+  description = "Physicist and Software Engineer"
+  homeTitle = "I'm Rayyan Raza"
   homeSubtitle = "Physics Researcher"
-  homeBio = "I am a physics researcher specializing in theoretical physics, exploring complex systems, and writing about my academic journey."
+  homeBio = "I am a first year physics PhD student specialized in theoretical condensed matter physics, quantum computing and error correction. I have lots of hobbies beside research."
   homeImage = "/images/profile/personal_photo.jpg"    # Avatar on homepage (place in static/images/, renders as 110px circle)
   # Icon links are emitted by layouts/_default/baseof.html so they respect
   # the /my_personal_website/ base path; the theme's own favicon param
@@ -30,9 +30,11 @@ theme = "ink"
     name = "Email"
     url = "mailto:contact@rayyanraza.com" # Recommended: Use a custom domain email or a professional primary address
   
+  
   [[params.socialLinks]]
-    name = "Blog"
-    url = "/posts/"
+    name = "X"
+    url = "https://x.com/1rayyanreda"
+    external = true
 
 
 # Navigation menu
