@@ -4,7 +4,7 @@
    rules here win. Keeps themes/ink/ untouched and upgradeable.
    ========================================================================== */
 
-/* The theme's 680px container was sized for 3-4 nav items. This site has six,
+/* The theme's 680px container was sized for 3-4 nav items. This site has seven,
    plus the title, search icon and theme toggle — they overflowed. */
 .container {
     max-width: 820px;
@@ -25,9 +25,94 @@
 }
 
 @media (max-width: 640px) {
-    /* Let the six nav items wrap tidily on phones instead of being squeezed. */
+    /* Let the seven nav items wrap tidily on phones instead of being squeezed. */
     .header-nav {
         gap: 0.7rem;
         row-gap: 0.3rem;
     }
+}
+
+/* ==========================================================================
+   Timeline — the Experience and Achievements pages. Both are plain markdown
+   pages rendered by the theme's single template, so the markup is hand-written
+   divs in the content rather than a Hugo partial.
+   ========================================================================== */
+
+.timeline-group {
+    margin: 2.4rem 0 0;
+}
+
+.timeline-group > h2 {
+    font-size: 1.05rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.65;
+    margin: 0 0 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid color-mix(in srgb, currentColor 15%, transparent);
+}
+
+/* The rail: a vertical line down the group with each item's dot sitting on it.
+   Drawn per item rather than on the group, so it survives items of any height
+   and stops cleanly after the last one. */
+.timeline-item {
+    position: relative;
+    padding: 0 0 1.7rem 1.4rem;
+    border-left: 2px solid color-mix(in srgb, currentColor 14%, transparent);
+}
+
+.timeline-item:last-child {
+    border-left-color: transparent;
+    padding-bottom: 0.4rem;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 0.45rem;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: 0.45;
+}
+
+.timeline-when {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    opacity: 0.6;
+    font-variant-numeric: tabular-nums;
+}
+
+.timeline-what {
+    font-size: 1.02rem;
+    margin: 0.15rem 0 0.15rem;
+    line-height: 1.35;
+}
+
+.timeline-where {
+    margin: 0 0 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.72;
+}
+
+.timeline-item > p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+    .timeline-item {
+        padding-left: 1.1rem;
+    }
+}
+
+.timeline-note,
+.timeline-link {
+    margin: 0 0 0.35rem;
+}
+
+.timeline-link {
+    font-size: 0.88rem;
 }

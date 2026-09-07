@@ -1,4 +1,12 @@
-# Quantum Papers Aggregator
+---
+title: "Quantum Papers Aggregator"
+date: 2026-02-01
+draft: false
+kind: "paper"
+description: "A serverless tool that collects the latest quantum computing and spin qubit papers from arXiv, refreshed every morning."
+aliases:
+  - /publications/papers_aggregators/
+---
 
 A fully automated, serverless research tool that collects and displays the latest academic papers in **quantum computing** and **spin qubits** from arXiv — refreshed every morning with zero manual effort.
 

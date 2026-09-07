@@ -43,31 +43,37 @@ theme = "ink"
     name = "About"
     url = "/about/"
     weight = 1
-  
+
   [[menu.main]]
     name = "Posts"
     url = "/posts/"
     weight = 2
-  
+
   [[menu.main]]
-    name = "Papers & Books"
-    url = "/publications/" 
+    name = "Papers & Research"
+    url = "/research/"
     weight = 3
 
   [[menu.main]]
-    name = "Experience"
-    url = "/experience/" 
+    name = "Books"
+    url = "/books/"
     weight = 4
 
   [[menu.main]]
-    name = "Life"
-    url = "/life/" 
+    name = "Experience"
+    url = "/experience/"
     weight = 5
-  
+
   [[menu.main]]
     name = "Achievements"
     url = "/achievements/"
     weight = 6
+
+  [[menu.main]]
+    name = "Life"
+    url = "/life/"
+    weight = 7
+
 # Output formats — enables llms.txt generation and JSON for site search
 [outputs]
   home = ["HTML", "RSS", "llmstxt", "JSON"]

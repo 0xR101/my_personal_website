@@ -7,8 +7,8 @@ in sync anywhere.
 ## The whole workflow
 
 ```sh
-hugo new experience/aps-march-meeting-2026     # creates the folder + index.md
-cp ~/Photos/aps/*.jpg content/experience/aps-march-meeting-2026/
+hugo new research/aps-march-meeting-2026     # creates the folder + index.md
+cp ~/Photos/aps/*.jpg content/research/aps-march-meeting-2026/
 ```
 
 That is it. Commit and push; GitHub Actions rebuilds and deploys.
@@ -18,7 +18,7 @@ Use `hugo new life/<slug>` for the Life section instead.
 ## What a folder looks like
 
 ```
-content/experience/aps-march-meeting-2026/
+content/research/aps-march-meeting-2026/
     index.md          <- front matter (all fields optional)
     01-talk.jpg       <- filenames set the order down the page
     02-poster.jpg
@@ -51,7 +51,7 @@ An entry with no `kind:` lands in an "Other" group at the bottom of the page.
 ## Changing the groups
 
 Groups and their order live in one place per section — `kinds:` in
-`content/experience/_index.md` and `content/life/_index.md`:
+`content/research/_index.md` and `content/life/_index.md`:
 
 ```yaml
 kinds:
@@ -119,22 +119,3 @@ Both work; a sidecar `.md` wins if you somehow have both for one photo.
   cannot resize them.
 - Photos in these folders are also published at their full size, since the
   lightbox links to them. Do not put anything private in an entry folder.
-
----
-
-## Demo content — delete when you are done with it
-
-Every folder starting with `demo-` is placeholder content with generated
-numbered images, added so you can see the layout working. It covers all four
-Experience kinds, all three Life kinds, captions, tags, prose, singular vs
-plural photo counts, an entry with no `kind:` (falls into "Other"), and an
-entry whose `index.md` is completely empty.
-
-Remove all of it in one command:
-
-```sh
-rm -rf content/experience/demo-* content/life/demo-*
-```
-
-The two real Experience entries (`iqc-waterloo-residency`,
-`nccr-spin-collaboration`) are not prefixed and will survive that.

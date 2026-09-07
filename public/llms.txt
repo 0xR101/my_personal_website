@@ -1,30 +1,29 @@
 # Rayyan Raza
 
-> Physics Researcher
+> Physicist and Software Engineer
+- [Achievements](https://0xR101.github.io/my_personal_website/achievements/): Awards, honors and recognition.
+- [Experience](https://0xR101.github.io/my_personal_website/experience/): Research positions, teaching, education and academic service.
 - [About Me](https://0xR101.github.io/my_personal_website/about/): Academic background and research focus.
 
-## Experience
-- [](https://0xR101.github.io/my_personal_website/experience/demo-bare-folder-example/)
-- [NCCR SPIN](https://0xR101.github.io/my_personal_website/experience/nccr-spin-collaboration/): Research collaboration on advanced spin-based quantum architectures.
-- [Coherence Engineering in Semiconductor Spin Qubits](https://0xR101.github.io/my_personal_website/experience/demo-invited-talk-eth-zurich/): Invited talk on extending coherence times in Si/SiGe double quantum dots.
-- [APS March Meeting 2026](https://0xR101.github.io/my_personal_website/experience/demo-aps-march-meeting-2026/): Presented results on spin qubit coherence in Session B42; four days of condensed matter sessions.
-- [Hyperfine Noise in Si/SiGe Quantum Dots](https://0xR101.github.io/my_personal_website/experience/demo-loss-group-seminar/): Group seminar on nuclear-spin bath dynamics and their effect on gate fidelity.
-- [Quantum Information Processing (QIP) 2026](https://0xR101.github.io/my_personal_website/experience/demo-qip-2026/): Poster session on gate-fidelity benchmarking for exchange-coupled qubit pairs.
-- [Thermodynamic Limits of Reversible Logic](https://0xR101.github.io/my_personal_website/experience/demo-contributed-talk-reversible-logic/): Contributed talk on Landauer-limit energy costs in reversible circuit families.
-- [KFUPM Physics Colloquium](https://0xR101.github.io/my_personal_website/experience/demo-kfupm-colloquium/): Departmental colloquium introducing quantum computing to a general physics audience.
-- [Entry With No Kind Set](https://0xR101.github.io/my_personal_website/experience/demo-unclassified-example/): This entry deliberately omits `kind:`, so it falls into the 'Other' group at the bottom rather than disappearing.
-- [Institute for Quantum Computing, University of Waterloo](https://0xR101.github.io/my_personal_website/experience/iqc-waterloo-residency/): Three-month research residency on the evaluation and modelling of fabricated qubits.
-- [Max Planck Institute for Solid State Research](https://0xR101.github.io/my_personal_website/experience/demo-mpi-stuttgart-visit/): Two-week visit to discuss fabrication of isotopically purified heterostructures.
+## Papers & Research
+- [Spin Qubit 7](https://0xR101.github.io/my_personal_website/research/spin-qubit-7-netherlands/): The seventh Spin Qubit International Conference.
+- [NCCR SPIN](https://0xR101.github.io/my_personal_website/research/nccr-spin-collaboration/): Research collaboration on advanced spin-based quantum architectures.
+- [Quantum Papers Aggregator](https://0xR101.github.io/my_personal_website/research/papers-aggregator/): A serverless tool that collects the latest quantum computing and spin qubit papers from arXiv, refreshed every morning.
+- [Institute for Quantum Computing, University of Waterloo](https://0xR101.github.io/my_personal_website/research/iqc-waterloo-residency/): Three-month research residency on the evaluation and modelling of fabricated qubits.
+- [KAUST Academy AI Summer Internship](https://0xR101.github.io/my_personal_website/research/kaust-academy-ai-internship/): Summer research internship in artificial intelligence with the KAUST Academy.
+
+## Books
+- [Quantum Mechanics](https://0xR101.github.io/my_personal_website/books/quantum_mechanics/): Long-form notes on quantum mechanics. In progress.
+- [Statistical Mechanics](https://0xR101.github.io/my_personal_website/books/statistical_mechanics/): Long-form notes on statistical mechanics. In progress.
 
 ## Life
-- [Hiking in the Swiss Alps](https://0xR101.github.io/my_personal_website/life/demo-hiking-swiss-alps/): A weekend in the Bernese Oberland during the NCCR SPIN collaboration.
-- [Film Photography](https://0xR101.github.io/my_personal_website/life/demo-film-photography/): Shooting 35mm around the Eastern Province.
-- [Bouldering](https://0xR101.github.io/my_personal_website/life/demo-bouldering/): Weekly sessions at the local gym.
-
-## Publications
-- [](https://0xR101.github.io/my_personal_website/publications/papers_aggregators/)
-- [](https://0xR101.github.io/my_personal_website/publications/quantum_mechanics/)
-- [](https://0xR101.github.io/my_personal_website/publications/statistical_mechanics/)
+- [Aletsch Glacier](https://0xR101.github.io/my_personal_website/life/aletsch-glacier/): A trip out to the Aletsch Glacier, the largest in the Alps.
+- [Travelling in Switzerland](https://0xR101.github.io/my_personal_website/life/switzerland-travel/): Getting around Switzerland during the NCCR SPIN collaboration in Basel.
+- [Badminton](https://0xR101.github.io/my_personal_website/life/badminton/): Doubles at the sports hall.
+- [Bouldering](https://0xR101.github.io/my_personal_website/life/bouldering/): Weekly sessions at the local gym.
+- [Football](https://0xR101.github.io/my_personal_website/life/football/): Kickabouts and five-a-side games.
+- [Swimming](https://0xR101.github.io/my_personal_website/life/swimming/): Lengths at the pool to clear my head.
+- [Travelling in Canada](https://0xR101.github.io/my_personal_website/life/canada-travel/): Exploring Canada during the research residency at IQC in Waterloo.
 
 ## Posts
 - [Dynamics of Spin Qubits in Semiconductor Quantum Dots](https://0xR101.github.io/my_personal_website/posts/spin-qubits-intro/): A brief overview of spin qubit Hamiltonian dynamics and gate implementations.

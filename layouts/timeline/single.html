@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{- /* Dated timeline for the Experience and Achievements pages. Entries live in
+       the page's own front matter under `groups:`, so adding a role or an award
+       is a front-matter edit and never a markup one — same split as the gallery
+       sections, where content/_index.md owns the data and layouts/ owns the HTML. */}}
+<h1 class="page-title">{{ .Title }}</h1>
+
+{{- with .Params.intro }}
+<div class="post-content gallery-intro">{{ . | markdownify }}</div>
+{{- end }}
+
+<div class="timeline">
+{{- range .Params.groups }}
+  <section class="timeline-group">
+    {{- with .label }}<h2>{{ . }}</h2>{{ end }}
+    {{- range .items }}
+    <div class="timeline-item">
+      {{- with .when }}<span class="timeline-when">{{ . }}</span>{{ end }}
+      <h3 class="timeline-what">{{ .what }}</h3>
+      {{- with .where }}<p class="timeline-where">{{ . }}</p>{{ end }}
+      {{- with .note }}<p class="timeline-note">{{ . | markdownify }}</p>{{ end }}
+      {{- with .link }}
+      <p class="timeline-link"><a href="{{ .url | relURL }}">{{ .text | default "Read more" }} &rarr;</a></p>
+      {{- end }}
+    </div>
+    {{- end }}
+  </section>
+{{- end }}
+</div>
+
+{{- with .Content }}
+<div class="post-content timeline-tail">{{ . }}</div>
+{{- end }}
+{{ end }}

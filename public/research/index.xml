@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rayyan Raza</title><link>https://0xR101.github.io/my_personal_website/research/</link><description>Physicist and Software Engineer</description><generator>Hugo 0.165.0</generator><language>en</language><managingEditor>Rayyan Raza</managingEditor><lastBuildDate>Mon, 07 Sep 2026 16:53:33 +0300</lastBuildDate><atom:link href="https://0xR101.github.io/my_personal_website/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Spin Qubit 7</title><link>https://0xR101.github.io/my_personal_website/research/spin-qubit-7-netherlands/</link><pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/research/spin-qubit-7-netherlands/</guid><description></description></item><item><title>NCCR SPIN</title><link>https://0xR101.github.io/my_personal_website/research/nccr-spin-collaboration/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/research/nccr-spin-collaboration/</guid><description></description></item><item><title>Quantum Papers Aggregator</title><link>https://0xR101.github.io/my_personal_website/research/papers-aggregator/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/research/papers-aggregator/</guid><description><![CDATA[<p>A fully automated, serverless research tool that collects and displays the latest academic papers in <strong>quantum computing</strong> and <strong>spin qubits</strong> from arXiv — refreshed every morning with zero manual effort.</p>
+<p><strong>Live site:</strong> <a href="https://0xr101.github.io/Papers_Aggregator//">0xr101.github.io/Papers_Aggregator</a></p>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>Keeping up with the pace of quantum computing research is hard. New papers appear on arXiv every day across multiple categories, and manually checking them is time-consuming. This project solves that by automating the entire pipeline — from fetching raw data to displaying it in a clean, searchable interface — with no server, no database, and no ongoing cost.</p>
+<hr>
+<h2 id="features">Features</h2>
+<ul>
+<li><strong>Daily automated updates</strong> — GitHub Actions fetches new papers every morning at 08:00 UTC and commits the results back to the repository automatically</li>
+<li><strong>Live search</strong> — instantly filter papers by title, author, or abstract as you type</li>
+<li><strong>Category filtering</strong> — quickly narrow results to <code>quant-ph</code> or <code>cond-mat</code> subfields</li>
+<li><strong>Sort controls</strong> — order by newest, oldest, or alphabetical</li>
+<li><strong>LaTeX rendering</strong> — mathematical equations in abstracts are rendered properly using KaTeX, so notation like $\hat{H} = \sum_i \sigma_i^z$ displays correctly in the browser</li>
+<li><strong>Light / dark mode</strong> — toggle between themes with one click; preference is saved across sessions</li>
+<li><strong>Direct paper links</strong> — every card links to the arXiv abstract page and PDF</li>
+<li><strong>Fully static</strong> — no backend, no database, no server costs</li>
+</ul>
+<hr>
+]]></description></item><item><title>Institute for Quantum Computing, University of Waterloo</title><link>https://0xR101.github.io/my_personal_website/research/iqc-waterloo-residency/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/research/iqc-waterloo-residency/</guid><description>&lt;p>A three-month research residency at IQC focused on the evaluation and modelling
+of fabricated qubits, bridging theoretical models with experimental fabrication.&lt;/p>
+</description></item><item><title>KAUST Academy AI Summer Internship</title><link>https://0xR101.github.io/my_personal_website/research/kaust-academy-ai-internship/</link><pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate><guid>https://0xR101.github.io/my_personal_website/research/kaust-academy-ai-internship/</guid><description></description></item></channel></rss>
