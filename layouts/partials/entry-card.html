@@ -1,0 +1,24 @@
+{{- $imgs := partial "gallery-images.html" . -}}
+{{- $thumb := "" -}}
+{{- with $imgs }}{{ $thumb = index . 0 }}{{ end -}}
+{{- $bits := slice -}}
+{{- with .Params.location }}{{ $bits = $bits | append . }}{{ end -}}
+{{- if not .Date.IsZero }}{{ $bits = $bits | append (.Date.Format "Jan 2006") }}{{ end -}}
+{{- with $imgs }}{{ $bits = $bits | append (printf "%d photo%s" (len .) (cond (eq (len .) 1) "" "s")) }}{{ end -}}
+<li class="entry-card">
+  <a class="entry-card-link" href="{{ .Permalink }}">
+    {{- with $thumb }}
+    {{- $t := .Fill "256x208 webp q78 Center" }}
+    <span class="entry-thumb"><img src="{{ $t.RelPermalink }}" alt="" width="256" height="208" loading="lazy" decoding="async"></span>
+    {{- end }}
+    <span class="entry-body{{ if not $thumb }} entry-body--nothumb{{ end }}">
+      <span class="entry-title">{{ partial "entry-title.html" . }}</span>
+      {{- with $bits }}
+      <span class="entry-meta">{{ delimit . " · " }}</span>
+      {{- end }}
+      {{- with .Description | default .Summary }}
+      <span class="entry-summary">{{ . | plainify | truncate 150 }}</span>
+      {{- end }}
+    </span>
+  </a>
+</li>

@@ -1,0 +1,11 @@
+{{- /*
+  Returns the page's image resources, sorted by filename, excluding formats
+  Hugo cannot process (SVG). Prefix filenames 01-, 02- to control order.
+*/ -}}
+{{- $imgs := slice -}}
+{{- range .Resources.ByType "image" -}}
+  {{- if ne .MediaType.SubType "svg" -}}
+    {{- $imgs = $imgs | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- return sort $imgs "Name" -}}

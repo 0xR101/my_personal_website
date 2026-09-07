@@ -108,3 +108,12 @@ theme = "ink"
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [["$$", "$$"]]
           inline = [["$", "$"]]
+# Dates fall back to the file's modification time, so a gallery entry whose
+# index.md has no front matter at all still sorts correctly.
+[frontmatter]
+  date = ["date", "publishDate", "lastmod", ":fileModTime", ":default"]
+
+# Thumbnail/resize quality for gallery image processing
+[imaging]
+  quality = 82
+  resampleFilter = "Lanczos"

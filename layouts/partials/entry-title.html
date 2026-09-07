@@ -1,0 +1,10 @@
+{{- /*
+  Title for a gallery entry: front matter `title` if present, otherwise
+  derived from the bundle's folder name, so an entry that is nothing but a
+  folder of photos and an empty index.md still reads correctly.
+*/ -}}
+{{- $t := .Title -}}
+{{- if and (not $t) .File -}}
+  {{- $t = .File.ContentBaseName | replaceRE "[-_]+" " " | title -}}
+{{- end -}}
+{{- return $t -}}

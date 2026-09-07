@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Hugo 0.165.0">
+<title>Thermodynamic Limits of Reversible Logic | Rayyan Raza</title>
+<meta name="description" content="Contributed talk on Landauer-limit energy costs in reversible circuit families.">
+
+
+<link rel="canonical" href="https://0xR101.github.io/my_personal_website/experience/demo-contributed-talk-reversible-logic/">
+
+
+
+
+<link rel="preload" href="/my_personal_website/fonts/inter-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="/my_personal_website/css/main.min.240b22b2c4120c8edb631f6de7161ae960e1c649b38f4d3df6bf1b1e4385d3ba.css" integrity="sha256-JAsissQSDI7bYx9t5xYa6WDhxkmzj0099r8bHkOF07o=">
+
+
+<script>
+  (function() {
+    var saved = localStorage.getItem('theme');
+    if (saved === 'dark' || saved === 'light') {
+      document.documentElement.dataset.theme = saved;
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.dataset.theme = 'dark';
+    }
+  })();
+</script>
+
+
+<noscript>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1c1917;
+        --text: #fafaf9;
+        --text-secondary: #a8a29e;
+        --link: #60a5fa;
+        --link-hover: #93bbfd;
+        --border: #44403c;
+        --code-bg: #292524;
+        --code-text: #d6d3d1;
+        --code-block-bg: #292524;
+        --code-block-text: #d6d3d1;
+        --tag-bg: #292524;
+        --tag-text: #d6d3d1;
+        --blockquote-border: #57534e;
+        --selection-bg: #60a5fa;
+        --selection-text: #1c1917;
+        --hover-bg: #292524;
+        --accent: #60a5fa;
+        color-scheme: dark;
+      }
+    }
+  </style>
+</noscript>
+
+
+<meta property="og:title" content="Thermodynamic Limits of Reversible Logic | Rayyan Raza">
+<meta property="og:url" content="https://0xR101.github.io/my_personal_website/experience/demo-contributed-talk-reversible-logic/">
+<meta property="og:site_name" content="Rayyan Raza">
+<meta property="og:description" content="Contributed talk on Landauer-limit energy costs in reversible circuit families.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2025-11-20T00:00:00Z">
+<meta property="article:modified_time" content="2025-11-20T00:00:00Z">
+<meta property="article:tag" content="reversible computing">
+<meta property="article:tag" content="thermodynamics">
+<meta property="article:section" content="experience">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Thermodynamic Limits of Reversible Logic | Rayyan Raza">
+<meta name="twitter:description" content="Contributed talk on Landauer-limit energy costs in reversible circuit families.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Thermodynamic Limits of Reversible Logic",
+  "url": "https://0xR101.github.io/my_personal_website/experience/demo-contributed-talk-reversible-logic/",
+  "datePublished": "2025-11-20T00:00:00Z",
+  "dateModified": "2025-11-20T00:00:00Z",
+  "description": "Contributed talk on Landauer-limit energy costs in reversible circuit families.",
+  "author": {
+    "@type": "Person",
+    "name": "Rayyan Raza"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rayyan Raza"
+  },
+  "wordCount":  9 ,
+  "keywords": ["reversible computing", "thermodynamics"]
+}
+</script>
+
+
+
+
+
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '$', right: '$', display: false}
+    ]
+  })">
+</script>
+<link rel="stylesheet" href="/my_personal_website/css/gallery.min.cdd7c213138a651bee1957463dc1ed7794ade6f06e16d3eec33dbe8c97b235b4.css" integrity="sha256-zdfCExOKZRvuGVdGPcHtd5St5vBuFtPuwz2&#43;jJeyNbQ=">
+<script defer src="/my_personal_website/js/lightbox.min.d4bfc9a7b507b4494fe259522875d1c98b28c91dd284a17aa5af4c0180bfbd82.js" integrity="sha256-1L/Jp7UHtElP4llSKHXRyYsoyR3ShKF6pa9MAYC/vYI="></script>
+
+</head>
+<body><header class="header" id="site-header">
+  <div class="container">
+    <a href="/my_personal_website/" class="site-title">Rayyan Raza</a>
+    <nav class="header-nav" aria-label="Main">
+      <a href="/my_personal_website/about/">About</a>
+      <a href="/my_personal_website/posts/">Posts</a>
+      <a href="/my_personal_website/publications/">Papers &amp; Books</a>
+      <a href="/my_personal_website/experience/">Experience</a>
+      <a href="/my_personal_website/life/">Life</a>
+      <a href="/my_personal_website/achievements/">Achievements</a>
+      <a href="/my_personal_website/search/" class="search-link" aria-label="Search" title="Search (/)">
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </a>
+      <button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme (Alt+T)">
+        <svg aria-hidden="true" class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg aria-hidden="true" class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+<article>
+  <header class="post-header">
+    <h1 class="post-title">Thermodynamic Limits of Reversible Logic</h1>
+    <div class="post-meta">ICTP, Trieste, Italy · November 20, 2025</div>
+    <div class="post-tags">
+      <a href="https://0xR101.github.io/my_personal_website/tags/reversible-computing/">reversible computing</a>
+      <a href="https://0xR101.github.io/my_personal_website/tags/thermodynamics/">thermodynamics</a>
+    </div>
+  </header>
+  <div class="post-content"><p>Contributed talk relating circuit-level reversibility to the Landauer bound.</p>
+</div>
+
+  
+<div class="gallery" data-lightbox>
+  <a class="gallery-item" href="/my_personal_website/experience/demo-contributed-talk-reversible-logic/01-photo.png" data-caption="">
+    <img src="/my_personal_website/experience/demo-contributed-talk-reversible-logic/01-photo_hu_328d2962223dff09.webp" alt="Thermodynamic Limits of Reversible Logic"
+         width="480" height="360" loading="lazy" decoding="async">
+  </a>
+  <a class="gallery-item" href="/my_personal_website/experience/demo-contributed-talk-reversible-logic/02-photo.png" data-caption="">
+    <img src="/my_personal_website/experience/demo-contributed-talk-reversible-logic/02-photo_hu_6f1eacdf8517271e.webp" alt="Thermodynamic Limits of Reversible Logic"
+         width="480" height="360" loading="lazy" decoding="async">
+  </a>
+</div>
+
+  <nav class="post-nav" aria-label="Entry navigation"><a class="prev" href="https://0xR101.github.io/my_personal_website/experience/demo-kfupm-colloquium/">KFUPM Physics Colloquium</a><a class="next" href="https://0xR101.github.io/my_personal_website/experience/demo-qip-2026/">Quantum Information Processing (QIP) 2026</a>
+  </nav>
+</article>
+
+  </main><footer class="footer">
+    <div class="container">&copy; 2026 Rayyan Raza</div>
+</footer>
+
+<button class="scroll-top" aria-label="Scroll to top" title="Scroll to top">
+    <svg aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <polyline points="18 15 12 9 6 15" />
+    </svg>
+</button>
+
+
+<span id="i18n-strings" hidden
+    data-copy="copy"
+    data-copied="Copied!"
+    data-no-results="No results found."
+    data-search-unavailable="Search index unavailable."
+></span>
+
+<script>
+    (function () {
+        var i18nEl = document.getElementById("i18n-strings");
+        var i18n = i18nEl ? i18nEl.dataset : {};
+
+        
+        var toggle = document.querySelector(".theme-toggle");
+        if (toggle) {
+            toggle.addEventListener("click", function () {
+                var next =
+                    document.documentElement.dataset.theme === "dark"
+                        ? "light"
+                        : "dark";
+                document.documentElement.dataset.theme = next;
+                localStorage.setItem("theme", next);
+            });
+        }
+
+        
+        document.addEventListener("keydown", function (e) {
+            if (e.altKey && e.key === "t") {
+                e.preventDefault();
+                toggle && toggle.click();
+            }
+        });
+
+        
+        var scrollBtn = document.querySelector(".scroll-top");
+        if (scrollBtn) {
+            window.addEventListener(
+                "scroll",
+                function () {
+                    scrollBtn.classList.toggle("visible", window.scrollY > 400);
+                },
+                { passive: true },
+            );
+            scrollBtn.addEventListener("click", function () {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+        }
+
+        
+        var header = document.getElementById("site-header");
+        if (header) {
+            window.addEventListener(
+                "scroll",
+                function () {
+                    header.classList.toggle("scrolled", window.scrollY > 10);
+                },
+                { passive: true },
+            );
+        }
+
+        
+        if (typeof CSS === "undefined" || !CSS.supports("animation-timeline", "scroll()")) {
+            document.documentElement.classList.add("no-scroll-timeline");
+            var bar = document.querySelector(".progress-bar");
+            if (bar) {
+                window.addEventListener(
+                    "scroll",
+                    function () {
+                        var h =
+                            document.documentElement.scrollHeight -
+                            window.innerHeight;
+                        bar.style.transform =
+                            "scaleX(" + (h > 0 ? window.scrollY / h : 0) + ")";
+                    },
+                    { passive: true },
+                );
+            }
+        }
+
+        
+        document.querySelectorAll(".ask-ai-btn").forEach(function (btn) {
+            btn.addEventListener("click", function () {
+                var prompt = document
+                    .getElementById("ask-ai-prompt")
+                    .textContent.trim();
+                var url = btn.dataset.url;
+                var name = btn.dataset.name;
+                if (url.indexOf("PROMPT") > -1) {
+                    window.open(
+                        url.replace("PROMPT", encodeURIComponent(prompt)),
+                        "_blank",
+                    );
+                } else {
+                    navigator.clipboard.writeText(prompt).then(function () {
+                        btn.textContent = i18n.copied || "Copied!";
+                        setTimeout(function () {
+                            btn.textContent = name;
+                        }, 2000);
+                    }).catch(function () {}).finally(function () {
+                        window.open(url, "_blank", "noopener");
+                    });
+                }
+            });
+        });
+
+        
+        var copyLabel = i18n.copy || "copy";
+        var copiedLabel = i18n.copied || "Copied!";
+        document.querySelectorAll(".highlight").forEach(function (block) {
+            var code = block.querySelector("pre code");
+            if (!code) return;
+            var btn = document.createElement("button");
+            btn.className = "code-copy";
+            btn.textContent = copyLabel;
+            btn.setAttribute("aria-label", copyLabel);
+            btn.addEventListener("click", function () {
+                navigator.clipboard
+                    .writeText(code.textContent)
+                    .then(function () {
+                        btn.textContent = copiedLabel;
+                        setTimeout(function () {
+                            btn.textContent = copyLabel;
+                        }, 2000);
+                    })
+                    .catch(function () {});
+            });
+            block.style.position = "relative";
+            block.appendChild(btn);
+        });
+    })();
+</script>
+
+</body>
+</html>

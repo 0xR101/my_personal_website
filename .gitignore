@@ -1,0 +1,5 @@
+# Hugo image/asset processing cache — regenerated on every build
+resources/_gen/
+.hugo_build.lock
+
+.DS_Store

@@ -1,0 +1,15 @@
+{{- $imgs := partial "gallery-images.html" . -}}
+{{- $title := partial "entry-title.html" . -}}
+{{- with $imgs }}
+<div class="gallery" data-lightbox>
+  {{- range . }}
+  {{- $thumb := .Fill "480x360 webp q80 Center" }}
+  {{- $full := cond (gt .Width 1800) (.Resize "1800x webp q85") . }}
+  {{- $cap := .Params.caption | default "" }}
+  <a class="gallery-item" href="{{ $full.RelPermalink }}" data-caption="{{ $cap }}">
+    <img src="{{ $thumb.RelPermalink }}" alt="{{ $cap | default $title }}"
+         width="480" height="360" loading="lazy" decoding="async">
+  </a>
+  {{- end }}
+</div>
+{{- end }}

@@ -1,0 +1,44 @@
+{{ define "main" }}
+<h1 class="page-title">{{ .Title }}</h1>
+
+{{- with .Content }}
+<div class="post-content gallery-intro">{{ . }}</div>
+{{- end }}
+
+{{- $pages := .RegularPages.ByDate.Reverse }}
+{{- $kinds := .Params.kinds }}
+
+{{- /* Ids declared in this section's _index.md, so unclassified entries can
+       be swept into a trailing group rather than silently disappearing. */}}
+{{- $ids := slice }}
+{{- range $kinds }}{{ $ids = $ids | append .id }}{{ end }}
+
+{{- range $kinds }}
+  {{- $group := where $pages "Params.kind" .id }}
+  {{- if $group }}
+<section class="entry-group">
+  <h2 class="entry-group-title">{{ .label | default .id }}</h2>
+  <ul class="entry-list">
+    {{- range $group }}{{ partial "entry-card.html" . }}{{ end }}
+  </ul>
+</section>
+  {{- end }}
+{{- end }}
+
+{{- $rest := slice }}
+{{- range $pages }}
+  {{- if not (in $ids (.Params.kind | default "")) }}{{ $rest = $rest | append . }}{{ end }}
+{{- end }}
+{{- if $rest }}
+<section class="entry-group">
+  {{- if $ids }}<h2 class="entry-group-title">Other</h2>{{ end }}
+  <ul class="entry-list">
+    {{- range $rest }}{{ partial "entry-card.html" . }}{{ end }}
+  </ul>
+</section>
+{{- end }}
+
+{{- if not $pages }}
+<p class="entry-empty">Nothing here yet.</p>
+{{- end }}
+{{ end }}

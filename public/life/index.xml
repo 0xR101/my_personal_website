@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rayyan Raza</title>
+    <link>https://0xR101.github.io/my_personal_website/life/</link>
+    <description>Physics Researcher</description>
+    <generator>Hugo 0.165.0</generator>
+    <language>en</language>
+    <managingEditor>Rayyan Raza</managingEditor>
+    <lastBuildDate>Mon, 07 Sep 2026 12:19:52 +0300</lastBuildDate>
+    <atom:link href="https://0xR101.github.io/my_personal_website/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hiking in the Swiss Alps</title>
+      <link>https://0xR101.github.io/my_personal_website/life/demo-hiking-swiss-alps/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://0xR101.github.io/my_personal_website/life/demo-hiking-swiss-alps/</guid>
+      <description><![CDATA[]]></description>
+    </item>
+    <item>
+      <title>Film Photography</title>
+      <link>https://0xR101.github.io/my_personal_website/life/demo-film-photography/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://0xR101.github.io/my_personal_website/life/demo-film-photography/</guid>
+      <description><![CDATA[<p>Mostly Portra 400 on an old rangefinder.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Bouldering</title>
+      <link>https://0xR101.github.io/my_personal_website/life/demo-bouldering/</link>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://0xR101.github.io/my_personal_website/life/demo-bouldering/</guid>
+      <description><![CDATA[]]></description>
+    </item>
+  </channel>
+</rss>
