@@ -5,13 +5,18 @@
 {{- with .Params.location }}{{ $bits = $bits | append . }}{{ end -}}
 {{- if not .Date.IsZero }}{{ $bits = $bits | append (.Date.Format "Jan 2006") }}{{ end -}}
 {{- with $imgs }}{{ $bits = $bits | append (printf "%d photo%s" (len .) (cond (eq (len .) 1) "" "s")) }}{{ end -}}
+{{- /* An entry with no photos yet falls back to its `icon:` emoji, so the card
+       still reads as something rather than a bare line of text. */}}
+{{- $icon := .Params.icon | default "" -}}
 <li class="entry-card">
   <a class="entry-card-link" href="{{ .Permalink }}">
     {{- with $thumb }}
     {{- $t := .Fill "256x208 webp q78 Center" }}
     <span class="entry-thumb"><img src="{{ $t.RelPermalink }}" alt="" width="256" height="208" loading="lazy" decoding="async"></span>
-    {{- end }}
-    <span class="entry-body{{ if not $thumb }} entry-body--nothumb{{ end }}">
+    {{- else }}{{ with $icon }}
+    <span class="entry-thumb entry-thumb--icon" aria-hidden="true">{{ . }}</span>
+    {{- end }}{{ end }}
+    <span class="entry-body{{ if and (not $thumb) (not $icon) }} entry-body--nothumb{{ end }}">
       <span class="entry-title">{{ partial "entry-title.html" . }}</span>
       {{- with $bits }}
       <span class="entry-meta">{{ delimit . " · " }}</span>

@@ -17,7 +17,7 @@
   {{- $group := where $pages "Params.kind" .id }}
   {{- if $group }}
 <section class="entry-group">
-  <h2 class="entry-group-title">{{ .label | default .id }}</h2>
+  <h2 class="entry-group-title">{{ with .icon }}<span class="group-icon" aria-hidden="true">{{ . }}</span>{{ end }}{{ .label | default .id }}</h2>
   <ul class="entry-list">
     {{- range $group }}{{ partial "entry-card.html" . }}{{ end }}
   </ul>

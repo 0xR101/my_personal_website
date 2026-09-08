@@ -7,6 +7,7 @@ location: "Waterloo, Canada"
 description: "Three-month research residency on the evaluation and modelling of fabricated qubits."
 aliases:
   - /experience/iqc-waterloo-residency/
+icon: "🍁"
 ---
 
 A three-month research residency at IQC focused on the evaluation and modelling

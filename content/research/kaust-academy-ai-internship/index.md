@@ -7,4 +7,5 @@ location: "Thuwal, Saudi Arabia"
 description: "Summer research internship in artificial intelligence with the KAUST Academy."
 aliases:
   - /experience/kaust-academy-ai-internship/
+icon: "🤖"
 ---

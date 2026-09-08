@@ -5,4 +5,5 @@ draft: false
 kind: "travel"
 location: "Switzerland"
 description: "Getting around Switzerland during the NCCR SPIN collaboration in Basel."
+icon: "🚞"
 ---

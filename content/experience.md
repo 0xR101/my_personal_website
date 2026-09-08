@@ -7,6 +7,7 @@ description: "Research positions, teaching, education and academic service."
 intro: "Research positions, teaching and appointments. Photos and write-ups from the visits themselves live under [Papers & Research](/research/)."
 groups:
   - label: "Research"
+    icon: "🔬"
     items:
       - when: "2026 — present"
         what: "PhD Researcher, Theoretical Physics"
@@ -35,6 +36,7 @@ groups:
           text: "See the internship"
 
   - label: "Teaching"
+    icon: "🎓"
     items:
       - when: "2025 — present"
         what: "Teaching Assistant, PHYS590"
@@ -42,6 +44,7 @@ groups:
         note: "Advanced physics and quantum computing coursework, covering student instruction and academic administration."
 
   - label: "Education"
+    icon: "📖"
     items:
       - when: "2026 — present"
         what: "PhD, Theoretical Physics"
@@ -53,6 +56,7 @@ groups:
         note: "Graduated with highest honors, 3.96/4.00 CGPA, with a foundation in physics alongside computational and engineering methods."
 
   - label: "Service"
+    icon: "🤝"
     items:
       - when: "2024 — 2025"
         what: "President, Physics Club"

@@ -10,9 +10,9 @@
 {{- end }}
 
 <div class="timeline">
-{{- range .Params.groups }}
+{{- range $g := .Params.groups }}
   <section class="timeline-group">
-    {{- with .label }}<h2>{{ . }}</h2>{{ end }}
+    {{- with .label }}<h2>{{ with $g.icon }}<span class="group-icon" aria-hidden="true">{{ . }}</span>{{ end }}{{ . }}</h2>{{ end }}
     {{- range .items }}
     <div class="timeline-item">
       {{- with .when }}<span class="timeline-when">{{ . }}</span>{{ end }}

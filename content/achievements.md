@@ -6,12 +6,14 @@ type: timeline
 description: "Awards, honors and recognition."
 groups:
   - label: "Academic Honors"
+    icon: "🎖️"
     items:
       - when: "2025"
         what: "Graduated with Highest Honors"
         where: "King Fahd University of Petroleum and Minerals · 3.96/4.00 CGPA"
 
   - label: "Selection & Recognition"
+    icon: "⭐"
     items:
       - when: "2025"
         what: "Selected for the KAUST Academy AI Summer Internship"
@@ -27,6 +29,7 @@ groups:
           text: "See the visit"
 
   - label: "Leadership"
+    icon: "🧭"
     items:
       - when: "2024 — 2025"
         what: "President, Physics Club"

@@ -116,3 +116,37 @@
 .timeline-link {
     font-size: 0.88rem;
 }
+
+/* ==========================================================================
+   Emoji icons — group headings, and the card tile for entries with no photos.
+   ========================================================================== */
+
+/* Emoji carry their own colour, so they ignore the theme's text colour and the
+   dimmed heading opacity. Reset both so a heading icon stays legible. */
+.group-icon {
+    display: inline-block;
+    margin-right: 0.5em;
+    opacity: 1;
+    font-size: 1.05em;
+    line-height: 1;
+    /* Keep glyph metrics off the heading's baseline calculation. */
+    vertical-align: -0.06em;
+}
+
+/* Stand-in for the photo thumbnail on an entry that has no photos yet. Width
+   and background come from .entry-thumb; the min-height matches the one on
+   .entry-thumb img, so icon cards and photo cards line up at the same height. */
+.entry-thumb--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 106px;
+    font-size: 2.1rem;
+    line-height: 1;
+}
+
+@media (max-width: 640px) {
+    .entry-thumb--icon {
+        font-size: 1.7rem;
+    }
+}

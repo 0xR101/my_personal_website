@@ -6,10 +6,13 @@ cascade:
   type: gallery
 kinds:
   - id: hobby
+    icon: "🏃"
     label: "Hobbies"
   - id: travel
+    icon: "🗺️"
     label: "Travel"
   - id: photography
+    icon: "📷"
     label: "Photography"
 ---
 

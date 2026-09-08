@@ -105,6 +105,19 @@ resources:
 
 Both work; a sidecar `.md` wins if you somehow have both for one photo.
 
+## Icons
+
+An entry with no photos yet shows its `icon:` emoji as the card tile instead of
+a blank space:
+
+```yaml
+icon: "🧗"
+```
+
+Drop photos into the folder later and the real thumbnail takes over — the
+`icon:` line can stay. Group headings have their own `icon:` too, set next to
+the group's `label:` in `content/research/_index.md` and `content/life/_index.md`.
+
 ## Notes
 
 - Thumbnails and WebP versions are generated at build time and cached in

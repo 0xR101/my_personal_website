@@ -7,4 +7,5 @@ location: "Basel, Switzerland"
 description: "Research collaboration on advanced spin-based quantum architectures."
 aliases:
   - /experience/nccr-spin-collaboration/
+icon: "🧲"
 ---

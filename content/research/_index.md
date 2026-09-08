@@ -8,16 +8,22 @@ cascade:
 # own index.md. Reorder, rename or add groups here — nothing else to change.
 kinds:
   - id: paper
+    icon: "📄"
     label: "Papers & Tools"
   - id: talk
+    icon: "🎤"
     label: "Talks"
   - id: seminar
+    icon: "🗣️"
     label: "Seminars"
   - id: conference
+    icon: "🌐"
     label: "Conferences"
   - id: visit
+    icon: "✈️"
     label: "Visits"
   - id: internship
+    icon: "🌱"
     label: "Internships"
 ---
 
