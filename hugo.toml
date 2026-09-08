@@ -29,7 +29,7 @@ theme = "ink"
   
   [[params.socialLinks]]
     name = "Email"
-    url = "mailto:contact@rayyanraza.com" # Recommended: Use a custom domain email or a professional primary address
+    url = "mailto:raza.rayyan@outlook.com" # Recommended: Use a custom domain email or a professional primary address
   
   
   [[params.socialLinks]]
