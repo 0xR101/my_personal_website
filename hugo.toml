@@ -1,5 +1,5 @@
-baseURL = "https://0xR101.github.io/my_personal_website/"
-languageCode = "en-us"
+baseURL = "https://0xr101.github.io/"
+locale = "en-us"
 title = "Rayyan Raza"
 theme = "ink"
 [params]
@@ -9,9 +9,10 @@ theme = "ink"
   homeSubtitle = "Physics Researcher"
   homeBio = "I am a first year physics PhD student specialized in theoretical condensed matter physics, quantum computing and error correction. I have lots of hobbies beside research."
   homeImage = "/images/profile/personal_photo.jpg"    # Avatar on homepage (place in static/images/, renders as 110px circle)
-  # Icon links are emitted by layouts/_default/baseof.html so they respect
-  # the /my_personal_website/ base path; the theme's own favicon param
-  # hardcodes a root-relative href and would 404 on GitHub Pages.
+  # Icon links are emitted by layouts/_default/baseof.html rather than through
+  # the theme's own favicon param, which writes the href verbatim. Harmless now
+  # that the site is served from the domain root, but it keeps the site correct
+  # if it ever moves back under a subpath.
   recentPostsCount = 3               # Posts shown on homepage (default: 3)             # Posts shown on homepage (default: 3)
   math = true
 
