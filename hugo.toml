@@ -40,37 +40,37 @@ theme = "ink"
 # Navigation menu
 [menu]
   [[menu.main]]
-    name = "👋 About"
+    name = "About"
     url = "/about/"
     weight = 1
 
   [[menu.main]]
-    name = "✍️ Posts"
+    name = "Posts"
     url = "/posts/"
     weight = 2
 
   [[menu.main]]
-    name = "🔬 Papers & Research"
+    name = "Papers & Research"
     url = "/research/"
     weight = 3
 
   [[menu.main]]
-    name = "📚 Books"
+    name = "Books"
     url = "/books/"
     weight = 4
 
   [[menu.main]]
-    name = "💼 Experience"
+    name = "Experience"
     url = "/experience/"
     weight = 5
 
   [[menu.main]]
-    name = "🏆 Achievements"
+    name = "Achievements"
     url = "/achievements/"
     weight = 6
 
   [[menu.main]]
-    name = "🌿 Life"
+    name = "Life"
     url = "/life/"
     weight = 7
 

@@ -105,6 +105,18 @@ resources:
 
 Both work; a sidecar `.md` wins if you somehow have both for one photo.
 
+## Choosing the card thumbnail
+
+The section list page shows one square thumbnail per entry, cropped 4:3 from the
+**first** photo. To lead with a different shot while keeping the stream in the
+order you want, name it in front matter:
+
+```yaml
+thumb: "17-photo.jpg"
+```
+
+The build fails loudly if the filename does not match a photo in the folder.
+
 ## Icons
 
 An entry with no photos yet shows its `icon:` emoji as the card tile instead of
@@ -126,9 +138,11 @@ the group's `label:` in `content/research/_index.md` and `content/life/_index.md
   aspect ratio — portrait and landscape shots both display uncropped.
 - Clicking a photo opens a lightbox (arrow keys navigate, Esc closes). With
   JavaScript disabled the photo is still a link to the full-size image.
-- Section list pages still show a small square thumbnail per entry; that is
-  cropped to 4:3 from the first photo.
+- Section list pages show a small square thumbnail per entry, cropped to 4:3
+  from the first photo unless `thumb:` names another one.
 - `.jpg`, `.png`, `.gif`, `.webp`, `.tif` all work. SVGs are skipped — Hugo
   cannot resize them.
-- Photos in these folders are also published at their full size, since the
-  lightbox links to them. Do not put anything private in an entry folder.
+- The lightbox links a 2000px WebP copy, not your original. Originals stay out
+  of the built site unless a photo is already under 2000px wide, in which case
+  it is linked and published as-is. Still: do not put anything private in an
+  entry folder.

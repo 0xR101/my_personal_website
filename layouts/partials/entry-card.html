@@ -1,6 +1,13 @@
 {{- $imgs := partial "gallery-images.html" . -}}
+{{- /* The card tile is the first photo by default. `thumb:` in front matter
+       names a different one, so the stream can stay in chronological order
+       while the card still leads with the best shot. */}}
 {{- $thumb := "" -}}
 {{- with $imgs }}{{ $thumb = index . 0 }}{{ end -}}
+{{- with .Params.thumb }}
+  {{- with $.Resources.GetMatch . }}{{ $thumb = . }}
+  {{- else }}{{ errorf "%s: thumb %q matches no image in the folder" $.File.Path . }}{{ end }}
+{{- end -}}
 {{- $bits := slice -}}
 {{- with .Params.location }}{{ $bits = $bits | append . }}{{ end -}}
 {{- if not .Date.IsZero }}{{ $bits = $bits | append (.Date.Format "Jan 2006") }}{{ end -}}
